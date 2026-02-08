@@ -11,7 +11,7 @@ const config = {
       debug: false
     }
   },
-  scene: [TitleScene, DungeonScene]
+  scene: [TitleScene, CharacterCreationScene, DungeonScene]
 };
 
 const game = new Phaser.Game(config);

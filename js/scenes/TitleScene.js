@@ -74,7 +74,7 @@ class TitleScene extends Phaser.Scene {
   startGame() {
     this.cameras.main.fadeOut(500, 0, 0, 0);
     this.time.delayedCall(500, () => {
-      this.scene.start('DungeonScene');
+      this.scene.start('CharacterCreationScene');
     });
   }
 }
